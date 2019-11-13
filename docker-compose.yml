@@ -1,0 +1,16 @@
+version: '2'
+services:
+  backend:
+    image: $IMAGE_DEV
+    container_name: $CONTAINER_NAME
+    environment:
+      MODE: 'volume'
+      PREFIX: $PREFIX_PATH
+    volumes:
+      - ./app/:/home/node/app/:rw
+      - ~/.ssh:/root/.ssh
+      - ~/.aws:/root/.aws
+    # network_mode: "host"
+    ports:
+      - 80:80
+      - 5858:5858

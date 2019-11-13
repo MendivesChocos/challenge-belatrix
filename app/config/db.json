@@ -1,0 +1,10 @@
+{
+  "mysql": {
+    "username": "root",
+    "password": "12345678",
+    "database": "belatrix-currency",
+    "host": "localhost",
+    "dialect": "mysql",
+    "port": 3306
+  }
+}
