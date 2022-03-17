@@ -67,7 +67,7 @@
     "reflect-metadata": "0.1.12",
     "sequelize": "4.38.0",
     "sequelize-cli": "4.1.1",
-    "simple-git": "1.96.0",
+    "simple-git": "3.3.0",
     "solr-client": "0.7.0",
     "ts-httpexceptions": "3.1.1",
     "uuid": "3.2.1",
