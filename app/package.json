@@ -51,7 +51,7 @@
     "cross-env": "5.1.6",
     "dateformat": "3.0.3",
     "inversify": "4.13.0",
-    "jsonwebtoken": "8.3.0",
+    "jsonwebtoken": "9.0.0",
     "keygrip": "1.0.2",
     "koa": "2.4.1",
     "koa-basic-auth": "3.0.0",
